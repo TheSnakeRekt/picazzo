@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">picazzo</string>
+    <string name="color">Color</string>
+    <string name="save">Save</string>
+    <string name="erase">Erase</string>
+    <string name="line_width">Line Width</string>
+    <string name="clear">Clear</string>
+    <string name="brush_icon">brush icon</string>
+    <string name="set_width">Set width</string>
+    <string name="label_alpha">Alpha</string>
+    <string name="label_r">Red</string>
+    <string name="label_g">Green</string>
+    <string name="label_b">Blue</string>
+    <string name="set_color">Set Color</string>
+</resources>

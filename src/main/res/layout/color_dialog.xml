@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayoutId"
+        android:layout_margin="10dp"
+        android:stretchColumns="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/label_alpha"
+                android:gravity="center_vertical">
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/alphaSeekbarId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:padding="40dp"
+                android:max="255">
+            </SeekBar>
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/label_r"
+                android:gravity="center_vertical">
+
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/rSeekbarId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:padding="40dp"
+                android:max="255">
+            </SeekBar>
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/label_g"
+                android:gravity="center_vertical">
+
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/gSeekbarId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:padding="40dp"
+                android:max="255">
+            </SeekBar>
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/label_b"
+                android:gravity="center_vertical">
+
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/bSeekbarId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:padding="40dp"
+                android:max="255">
+            </SeekBar>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:id="@+id/linearLayoutColorId"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/colorViewId"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+        </View>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/setColorButtonId"
+        android:text="@string/set_color">
+
+    </Button>
+</LinearLayout>
